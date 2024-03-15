@@ -6,9 +6,9 @@ const mapLetters = (letters: string[]): Iterable<ReactNode> => {
         if (value) {
             if (index === 1) {
 
-                return <div key={index} className="bg-greenElement px-1">{value}</div>
+                return <div key={index} className="bg-greenElement px-1 leading-snug">{value}</div>
             }
-            return <div key={index}>{value}</div>
+            return <div key={index} className="leading-snug">{value}</div>
         }
 
         return <React.Fragment key={index} />
