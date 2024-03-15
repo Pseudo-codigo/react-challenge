@@ -8,9 +8,11 @@ First, run the development server:
 npm run dev
 ```
 
+ESLINT is automatically run on build
 To run in production mode:
 
 ```bash
+npm run build
 npm run start
 ```
 
@@ -20,13 +22,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Live Demo
 
-- [Demo](https://Pseudo-codigo.github.io/react-challenge) - Check out the live demo!.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Demo](https://Pseudo-codigo.github.io/react-challenge) - Check out the live demo!
 
 ## Using Docker
 
